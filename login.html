@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles1.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">Iniciar sesión</div>
+    <form action="" class="form" id="loginForm"> <!-- Añade el id 'loginForm' al formulario -->
+      <input required="" class="input" type="text" name="email" id="email" placeholder="Usuario">
+      <input required="" class="input" type="password" name="password" id="password" placeholder="Password">
+      <input class="login-button" type="submit" value="Sign In">
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evitar que el formulario se envíe
+
+        // Obtener los valores del formulario
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+
+        // Verificar las credenciales (usuario y contraseña predeterminados)
+        if (email === 'admin' && password === '123456') {
+            alert('Inicio de sesión exitoso');
+            window.location.href = 'index.html';
+            // Aquí puedes redirigir a otra página o realizar otras acciones después del inicio de sesión
+        } else {
+            alert('Credenciales incorrectas. Por favor, inténtalo de nuevo.');
+        }
+    });
+  </script>
+</body>
+</html>

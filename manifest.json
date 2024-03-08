@@ -1,0 +1,67 @@
+{
+    "short_name": "Tienda Don Mathus",
+    "name": "Abasto Xmathus",
+    "description": "Nuestro compromiso es brindarte productos de primera calidad, atención personalizada y un ambiente acogedor que te haga sentir como en casa. ¡Visítanos y deja que te ayudemos a llenar tu despensa con lo mejor!", 
+    "start_url": "index.html",
+    "background_color": "#31BA8E",
+    "theme_color": "#31BA8E",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+          "src": "icons/icon-72x72.png",
+          "sizes": "72x72",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-128x128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-144x144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-152x152.png",
+          "sizes": "152x152",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-384x384.png",
+          "sizes": "384x384",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "screenshots": [
+        {
+            "src": "default.jpeg",
+            "sizes": "225x225",
+            "type": "image/png",
+            "platform": "web",
+            "form_factor": "wide"
+        },
+        {
+          "src": "default.jpeg",
+          "sizes": "225x225",
+          "type": "image/jpeg"
+        }
+    ]
+
+}
